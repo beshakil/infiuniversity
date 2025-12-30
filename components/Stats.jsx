@@ -15,7 +15,7 @@ const Stats = () => {
                 <div className="w-14 h-14 rounded-2xl bg-brand-50 flex items-center justify-center text-3xl mb-6 transition-transform group-hover:scale-110 duration-500">
                   {stat.icon}
                 </div>
-                <div className="text-3xl md:text-5xl font-black text-primary mb-2 tracking-tighter">
+                <div className="text-3xl md:text-4xl font-black text-primary mb-2 tracking-tighter">
                   {stat.value}
                 </div>
                 <div className="text-gray-400 font-bold uppercase tracking-[0.15em] text-[10px] md:text-xs">
